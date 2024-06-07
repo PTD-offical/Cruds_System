@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- !CSS -->
+    <link rel="stylesheet" href="../Style/login.css" />
+
+    <meta name="description" content="Cruds System" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in | DataDock</title>
+  </head>
+  <body>
+    <section id="login">
+      <div class="login-form">
+        <!-- ######################### -->
+        <div class="top-info">
+          <div class="logo">
+            <h1>Data Dock</h1>
+            <span>SIGN IN</span>
+          </div>
+          <p>Enter your email and password</p>
+        </div>
+        <!-- ######################### -->
+        <div class="botm-info">
+          <div class="inputs">
+            <div class="login-user">
+              <i class="login__icon fas fa-user"></i>
+              <input
+                id="user"
+                type="text"
+                class="login__input"
+                placeholder="User name / Email"
+              />
+            </div>
+
+            <div class="login-pass">
+              <i class="login__icon fas fa-lock"></i>
+              <input
+                id="pass"
+                type="password"
+                class="login__input"
+                placeholder="Password"
+              />
+            </div>
+          </div>
+
+          <div class="buttons">
+            <div class="but">
+              <i class="fa-solid fa-right-to-bracket"></i>
+              <button id="sign">SIGN IN</button>
+            </div>
+          </div>
+          <!-- ####################### -->
+          <div class="alert">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <p>Alert: <span id="alert"></span></p>
+          </div>
+        </div>
+      </div>
+      <!-- ######################### -->
+    </section>
+    <!-- !JS -->
+    <script src="../JS/login.js"></script>
+    <!-- <script src="../JS/login.js"></script> -->
+  </body>
+</html>
